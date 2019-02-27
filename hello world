@@ -1,0 +1,2 @@
+n=int(input('Hello World'))
+print(n)
