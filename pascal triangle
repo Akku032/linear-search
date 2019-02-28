@@ -1,0 +1,9 @@
+n=int(input())
+for r in range(n):
+    print(' '*(n-r-1),end='')
+    p=1
+    for c in range(r+1):
+        print(p,end=' ')
+        p=int(p*(r-c)/(c+1))
+    print()
+    
