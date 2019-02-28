@@ -1,0 +1,6 @@
+n=int(input())
+l=len(str(bin(n)))-2
+for i in range(n+1):
+   g=str(bin(i))
+   g=g[2:]
+   print(' '*(l-len(g))+g)
