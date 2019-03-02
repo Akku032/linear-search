@@ -1,0 +1,10 @@
+r=eval(input('enter the number'))
+print('maximum data use to be entered',r*c)
+mat=[[] for _ in range(r)]
+for k in range(r):
+   tt=list(eval(input('enter the row data'))
+   mat[k].append(tt)
+for row in mat:
+   for col in row:
+      print(col,end='\t')
+   print()
