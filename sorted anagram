@@ -1,0 +1,11 @@
+
+#created by akanksha gupta
+
+
+
+n1=input("enter the 1st string")
+n2=input("enter the 2nd string")
+if(sorted(n1)==sorted(n2)):
+	print("the strings are anagram")
+else:
+	print("the string is not anagram")
